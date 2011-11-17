@@ -1,0 +1,21 @@
+ΑΦΟΥ ΚΑΤΒΑΣΟΥΜΕ ΤΟ ZIP ΑΡΧΕΙΟ ΤΟ ΑΠΟΣΥΜΠΙΕΖΟΥΜΕ. 
+ΑΚΟΛΟΥΘΩΣ ΣΤΟΝ ΦΑΚΕΛΟ ΠΟΥ ΕΧΟΥΜΕ ΤΙΣ WEBAPSS  ΔΗΜΙΟΥΡΓΟΥΜΕ 
+ΕΝΑ ΦΑΚΕΛΟ ΜΕ ΤΟ ΟΝΟΜΑ Project 2. ΜΕΣΑ ΣΕ ΑΥΤΟΝ ΤΟΝ ΦΑΚΕΛΟ 
+ΦΤΙΑΧΝΟΥΜΕ ΤΟΥΣ ΕΞΗΣ ΥΠΟΦΑΚΕΛΟΥΣ:
+1.Project-2/WEB-INF
+2.Project-2/WEB-INF/classes
+3.Project-2/WEB-INF/classes/
+4.Project-2/WEB-INF/classes/com
+5.Project-2/WEB-INF/classes/com/example
+6.Project-2/WEB-INF/classes/com/example/web
+7.Project-2/WEB-INF/classes/com/example/model
+
+ΤΩΡΑ ΑΝΤΙΓΡΑΦΟΥΜΕ ΤΑ ΑΠΟΣΥΜΠΙΕΣΜΕΝΑ ΑΡΧΕΙΑ ΣΤΟΥΣ ΕΞΗΣ ΦΑΚΕΛΟΥΣ
+
+ΣΤΟΝ Project-2 ΒΑΖΟΥΜΕ ΤΑ index.html και index.jsp
+ΣΤΟΝ ΦΑΚΕΛΟ 1 ΒΑΖΟΥΜΕ ΤΟ web.xml
+ΣΤΟΝ ΦΑΚΕΛΟ 6 ΒΑΖΟΥΜΕ ΤΑ codexport.java, converter.java,
+                        listen.java, replink.java
+ΣΤΟΝ ΦΑΚΕΛΟ 7 ΒΑΖΟΥΜΕ ΤΟ eksport.java
+ΤΩΡΑ ΕΧΟΥΜΕ ΚΑΝΕΙ DEPLOY ΤΗΝ ΕΦΑΡΜΟΓΗ ΜΑΣ ΚΑΙ ΜΠΟΡΟΥΜΕ ΝΑ ΤΗΝ ΤΡΕΞΟΥΜΕ
+ΜΕ ΤΟΝ TOMCAT "tomcat-path"/Project-2/index.html
