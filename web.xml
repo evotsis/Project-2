@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+    Version="2.4">
+    <servlet>
+        <servlet-name>exchan</servlet-name>
+        <servlet-class>com.example.web.converter</servlet-class>
+    </servlet>
+     <servlet>
+        <servlet-name>stathisredirect</servlet-name>
+        <servlet-class>com.example.web.replink</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>stathiscode</servlet-name>
+        <servlet-class>com.example.web.codexport</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>exchan</servlet-name>
+        <url-pattern>/exchange.do</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>stathisredirect</servlet-name>
+        <url-pattern>/link.do</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>stathiscode</servlet-name>
+        <url-pattern>/link2.do</url-pattern>
+    </servlet-mapping>
+    
+    <context-param>
+      <param-name>adress</param-name>
+      <param-value>http://evotsis.wordpress.com</param-value>
+    </context-param>
+    
+    <listener>
+      <listener-class>
+	com.example.web.listen
+      </listener-class>
+    </listener>
+</web-app>
