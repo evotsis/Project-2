@@ -12,7 +12,8 @@
 
 ΤΩΡΑ ΑΝΤΙΓΡΑΦΟΥΜΕ ΤΑ ΑΠΟΣΥΜΠΙΕΣΜΕΝΑ ΑΡΧΕΙΑ ΣΤΟΥΣ ΕΞΗΣ ΦΑΚΕΛΟΥΣ
 
-ΣΤΟΝ Project-2 ΒΑΖΟΥΜΕ ΤΑ index.html και index.jsp
+ΣΤΟΝ Project-2 ΒΑΖΟΥΜΕ ΤΑ index.html,index.jsp KAI ΤΟ ΣΥΜΠΙΕΣΜΕΝΟ ΦΑΚΕΛΟ
+ΠΟΥ ΚΑΤΕΒΑΣΑΜΕ ΤΟΝ ΟΠΟΙΟ ΠΡΕΠΕΙ ΝΑ ΤΟΝ ΜΕΤΟΝΟΜΑΣΟΥΜΕ ΣΕ coding.zip
 ΣΤΟΝ ΦΑΚΕΛΟ 1 ΒΑΖΟΥΜΕ ΤΟ web.xml
 ΣΤΟΝ ΦΑΚΕΛΟ 6 ΒΑΖΟΥΜΕ ΤΑ codexport.java, converter.java,
                         listen.java, replink.java
